@@ -1,0 +1,22 @@
+:root {
+    --offwhite: #dad6d6;
+}
+
+.dropshadow {
+    /* filter: drop-shadow(0px 3px 1px rgb(106, 103, 103)); */
+    box-shadow: 0px 3px 5px rgb(176, 171, 171);
+}
+
+.review-pic {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+.offwhite_bg {
+    background-color: var(--offwhite);
+}
+
+.pricing-card {
+    width: 23vw;
+}

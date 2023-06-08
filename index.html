@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knight Studios</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    body.debug .container,
+    body.debug .container-fluid {
+        outline: 2px double blue;
+        outline-offset: -2px;
+    }
+
+    body.debug .row {
+        outline: 2px dashed red;
+        outline-offset: -2px;
+    }
+
+    body.debug [class*="col-"] {
+        outline: 2px dotted forestgreen;
+        outline-offset: -3px;
+    }
+</style>
+
+<body class="">
+
+    <header class="container dropshadow">
+        <!-- SECTION upper logo -->
+        <section class="row bg-dark text-light">
+            <div class="col-12 text-center py-3">
+                <i class="mdi mdi-chess-knight fs-1"></i>
+                <h1>welcome to the site</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, voluptatem!</p>
+                <button class="btn btn-success">Get Started</button>
+            </div>
+        </section>
+        <!-- SECTION navbar -->
+        <section class="row ">
+            <div class="col-4 py-2 ">
+                <i class="mdi mdi-chess-knight fs-2 ps-3"></i>
+            </div>
+            <div class="d-none col-md-8 d-md-flex justify-content-evenly align-items-center">
+                <p>Home</p>
+                <p>ABOUT</p>
+                <p>SERVICES</p>
+                <p>PORTFOLIO</p>
+                <p>TEAM</p>
+                <p>PRICING</p>
+                <p>DROP DOWN</p>
+                <p>CONTACT</p>
+
+            </div>
+        </section>
+
+
+    </header>
+
+    <main class="container">
+        <!-- SECTION about us -->
+        <section class="row">
+            <div class="col-12 text-center pt-2">
+                <h2>ABOUT US</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </section>
+
+        <section class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <img class="img-fluid rounded body-pics"
+                    src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVldGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+            </div>
+            <div class="col-12 col-md-6">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, corporis. At qui temporibus
+                    quisquam veniam cupiditate fugiat eos officia natus, ipsa cumque facere dolorum officiis?
+                </p>
+                <div>
+                    <p><i class="mdi mdi-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p><i class="mdi mdi-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p><i class="mdi mdi-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
+                        deserunt. Reiciendis, perferendis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt magni sequi
+                        repudiandae
+                        adipisci quasi, commodi assumenda vel aut quis in obcaecati dicta labore ex dolores enim. Iusto,
+                        rem
+                        reprehenderit!</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SECTION services -->
+        <section class="row">
+
+            <div class="col-12 text-center ">
+                <h2>SERVICES</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </section>
+        <section class="row">
+            <!--   -->
+            <div class="order-2 order-md-1 col-12 col-md-6 ">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, corporis. At qui temporibus
+                    quisquam veniam cupiditate fugiat eos officia natus, ipsa cumque facere dolorum officiis?
+                </p>
+                <p><i class="mdi mdi-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p><i class="mdi mdi-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p><i class="mdi mdi-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
+                    deserunt. Reiciendis, perferendis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt magni sequi repudiandae
+                    adipisci quasi, commodi assumenda vel aut quis in obcaecati dicta labore ex dolores enim. Iusto, rem
+                    reprehenderit!</p>
+            </div>
+
+            <!--  -->
+            <div class="order-1 order-md-2 col-12 col-md-6 d-flex justify-content-center align-items-center ">
+                <img class="img-fluid rounded body-pics"
+                    src="https://images.unsplash.com/photo-1499914485622-a88fac536970?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHlwaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+            </div>
+        </section>
+
+        <!-- SECTION services 2 -->
+
+        <section class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <img class="img-fluid rounded body-pics"
+                    src="https://images.unsplash.com/photo-1591871987673-f1513e38493b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aWRlYXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+            </div>
+            <div class="col-12 col-md-6">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, corporis. At qui temporibus
+                    quisquam veniam cupiditate fugiat eos officia natus, ipsa cumque facere dolorum officiis?
+                </p>
+                <div>
+                    <p><i class="mdi mdi-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p><i class="mdi mdi-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p><i class="mdi mdi-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
+                        deserunt. Reiciendis, perferendis.</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt magni sequi repudiandae
+                    adipisci quasi, commodi assumenda vel aut quis in obcaecati dicta labore ex dolores enim. Iusto, rem
+                    reprehenderit!</p>
+            </div>
+        </section>
+
+        <!-- SECTION questions -->
+        <section class="row offwhite_bg">
+            <div class="order-2 order-md-1 col-12 col-md-6 ">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, corporis. At qui temporibus
+                    quisquam veniam cupiditate fugiat eos officia natus, ipsa cumque facere dolorum officiis?
+                </p>
+                <div>
+                    <p><i class="mdi mdi-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p><i class="mdi mdi-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p><i class="mdi mdi-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
+                        deserunt. Reiciendis, perferendis.</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt magni sequi repudiandae
+                    adipisci quasi, commodi assumenda vel aut quis in obcaecati dicta labore ex dolores enim. Iusto, rem
+                    reprehenderit!</p>
+            </div>
+            <div class="order-1 order-md-2 col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <img class="img-fluid rounded body-pics"
+                    src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbGxhYm9yYXRpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+            </div>
+        </section>
+
+        <!-- SECTION reviews -->
+        <section class="row">
+            <div class="col-12 text-center bg-dark text-light">
+                <i class="mdi mdi-balloon text-success fs-1"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consequuntur odit aut, sunt porro,
+                    earum, laborum voluptas nobis sapiente architecto modi voluptatibus odio officia natus!</p>
+                <img class="review-pic"
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhlYWRzaG90fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                <p>Matt Brandon</p>
+                <p>Freelancer</p>
+                <div>
+                    <i class="mdi mdi-dots-circle"></i>
+                    <i class="mdi mdi-dots-circle"></i>
+                    <i class="mdi mdi-dots-circle"></i>
+                    <i class="mdi mdi-dots-circle"></i>
+                    <i class="mdi mdi-dots-circle"></i>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION pricing -->
+        <section class="row offwhite_bg">
+            <div class="col-12 text-center">
+                <h2>PRICING</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, debitis.</p>
+            </div>
+        </section>
+        <section class="row offwhite_bg p-5 d-flex justify-content-evenly ">
+            <div class="col-12 col-md-3 text-center bg-white py-5 rounded pricing-card">
+                <h4>Plan</h4>
+                <h3>$100 / month</h3>
+                <p>Lorem, ipsum.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Lorem, ipsum.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <button class="btn btn-outline-success">Buy Now</button>
+            </div>
+            <div class="col-12 col-md-3 text-center bg-white py-5 rounded border border-1 border-success pricing-card ">
+                <h4>Plan</h4>
+                <h3>$100 / month</h3>
+                <p>Lorem, ipsum.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Lorem, ipsum.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <button class="btn btn-success">Buy Now</button>
+            </div>
+            <div class="col-12 col-md-3 text-center bg-white py-5 rounded pricing-card">
+                <h4>Plan</h4>
+                <h3>$100 / month</h3>
+                <p>Lorem, ipsum.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Lorem, ipsum.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <button class="btn btn-outline-success">Buy Now</button>
+            </div>
+        </section>
+
+        <!-- SECTION contact -->
+        <section class="row offwhite_bg">
+            <div class="col-12 text-center">
+                <h2>CONTACT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, doloribus.</p>
+            </div>
+        </section>
+
+        <section class="row offwhite_bg">
+            <div class="col-12 col-md-4 p-4 pricing-card bg-white  ">
+                <div class="d-flex align-items-center">
+                    <i class="mdi mdi-map-marker text-success fs-3 "></i>
+                    <div class="align-content-around">
+                        <h4>Location</h4>
+                        <p>text2</p>
+                        <p>text3</p>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center ">
+                    <i class="mdi mdi-email text-success fs-3"></i>
+                    <div class="align-content-around">
+                        <h4>Email</h4>
+                        <p>text2</p>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center">
+                    <i class="mdi mdi-phone text-success fs-3 "></i>
+                    <div class="align-content-around">
+                        <h4>Call</h4>
+                        <p>text2</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-12 col-md-8 p-4 bg-white">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="container">
+        <section class="row text-center bg-dark text-light">
+            <div class="col-12 p-5">
+
+                <i class="mdi mdi-horse fs-1"></i>
+                <h1>Knight</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore porro quasi debitis hic blanditiis
+                    tenetur a voluptates eaque harum maiores!</p>
+
+                <form>
+                    <div class="input-group mb-3 px-5">
+                        <input type="email" class="form-control" placeholder="Recipient's email"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-success" type="button">Subscribe</button>
+                        </div>
+                    </div>
+
+                </form>
+                <div class="text-success fs-3">
+                    <i class="mdi mdi-twitter"></i>
+                    <i class="mdi mdi-facebook"></i>
+                    <i class="mdi mdi-instagram"></i>
+                    <i class="mdi mdi-skype"></i>
+                    <i class="mdi mdi-linkedin"></i>
+                </div>
+
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
